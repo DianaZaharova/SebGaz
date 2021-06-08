@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>gulp-scss-starter</title>
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+        <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+        <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+        <link rel="stylesheet" href="styles/main.min.css">
+    </head>
+    <body>
+        <header class="header">
+  <div class="header__wrap">
+    <div class="header__container header__container_big">
+      <div class="header__location-select">
+        Ваше местоположение:
+        <div class="header__current-location">Новосибирск</div>
+        <div class="header__locations-wrapper">
+          <div class="header__another-location">Омск</div>
+          <div class="header__another-location">Томск</div>
+          <div class="header__another-location">Ростов</div>
+          <div class="header__another-location">Красноярск</div>
+        </div>
+      </div>
+      <p class="header__time header__time_tablet">
+        <span class="header__time_small">Работаем без выходных</span> Пн. – Вс.
+        08:00 – 20:00
+      </p>
+      <ul class="header__menu-list">
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Галерея работ</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Отзывы</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Справочник</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Сертификаты</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">О компании</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="header__container header__container_small">
+    <div class="header__info">
+      <img class="header__info-logo" src="./img/logo.png" alt="logo" />
+      <ul class="header__info-list">
+        <li class="header__info-item">системы автономного газоснабжения</li>
+        <li class="header__info-item">монтаж систем отопления</li>
+        <li class="header__info-item">монтаж ГВС</li>
+      </ul>
+    </div>
+    <div class="header__contacts">
+      <div class="header__time header__time_desktop">
+        <p class="header__time-text">Работаем без выходных</p>
+        <p class="header__time-text">Пн. – Вс. 08:00 – 20:00</p>
+      </div>
+      <div class="header__phone">
+        <a class="header__phone-number" href="tel:+73832923612"
+          >+7(383) 292-36-12</a
+        >
+        <a class="header__phone-call" href="#">Заказать обратный звонок</a>
+      </div>
+    </div>
+    <div class="header__mobile-nav">
+      <button class="header__burger" type="button" aria-label="Открыть меню">
+        <span class="header__burger-line"></span>
+      </button>
+      <div class="header__mobile-content">
+        <ul class="header__mobile-list">
+          <li class="header__mobile-item">
+            <a class="header__mobile-link" href="#">Галерея работ</a>
+          </li>
+          <li class="header__mobile-item">
+            <a class="header__mobile-link" href="#">Отзывы</a>
+          </li>
+          <li class="header__mobile-item">
+            <a class="header__mobile-link" href="#">Справочник</a>
+          </li>
+          <li class="header__mobile-item">
+            <a class="header__mobile-link" href="#">Сертификаты</a>
+          </li>
+          <li class="header__mobile-item">
+            <a class="header__mobile-link" href="#">О компании</a>
+          </li>
+          <li class="header__mobile-item">
+            <a class="header__mobile-link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <div class="header__mobile-contacts">
+          <a class="header__mobile-btn" href="#">Написать в WhatsApp</a>
+          <p class="header__mobile-time header__time header__time_small">
+            Работаем без выходных
+          </p>
+          <p class="header__mobile-days header__time_mobile">
+            Пн. – Вс. 08:00 – 20:00
+          </p>
+          <p class="header__mobile-name">Сибгазсервис</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="header__nav">
+    <ul class="header__nav-list">
+      <li class="header__nav-item">
+        <div class="header__nav-wrap">
+          <div class="header__nav-img header__nav-img--battery"></div>
+          <h2 class="header__nav-title">Отопление</h2>
+        </div>
+        <div class="header__submenu">
+          <ul class="header__submenu-list">
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Проектирование систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Монтаж систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Обслуживание систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#">Обслуживание котлов</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#">Оборудование</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="header__nav-item">
+        <div class="header__nav-wrap">
+          <div class="header__nav-img header__nav-img--battery"></div>
+          <h2 class="header__nav-title">Водоснабжение</h2>
+        </div>
+        <div class="header__submenu">
+          <ul class="header__submenu-list">
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Проектирование систем водоснабжения</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Монтаж систем водоснабжения</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Обслуживание систем водоснабжения</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Обслуживание водонагревателей</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#">Оборудование</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="header__nav-item">
+        <div class="header__nav-wrap">
+          <div class="header__nav-img header__nav-img--filter"></div>
+          <h2 class="header__nav-title">Водоочистка</h2>
+        </div>
+        <div class="header__submenu">
+          <ul class="header__submenu-list">
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Проектирование систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Монтаж систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Обслуживание систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#">Обслуживание котлов</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#">Оборудование</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="header__nav-item">
+        <div class="header__nav-wrap">
+          <div class="header__nav-img header__nav-img--pipes"></div>
+          <h2 class="header__nav-title">Канализация</h2>
+        </div>
+        <div class="header__submenu">
+          <ul class="header__submenu-list">
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Проектирование систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Монтаж систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Обслуживание систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#">Обслуживание котлов</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#">Оборудование</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="header__nav-item">
+        <div class="header__nav-wrap">
+          <div class="header__nav-img header__nav-img--drawing"></div>
+          <h2 class="header__nav-title">Проектирование</h2>
+        </div>
+        <div class="header__submenu header__submenu_last">
+          <ul class="header__submenu-list">
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Проектирование систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Монтаж систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#"
+                >Обслуживание систем отопления</a
+              >
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#">Обслуживание котлов</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link" href="#">Оборудование</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <ul class="header__title-list">
+    <li class="header__title-item">Отопление</li>
+    <li class="header__title-item">Водоснабжение</li>
+    <li class="header__title-item">Водоочистка</li>
+    <li class="header__title-item">Канализация</li>
+    <li class="header__title-item">Проектирование</li>
+  </ul>
+</header>
+
+        
+        <script src="js/main.min.js"></script>
+        <script src="js/vendor.min.js"></script>
+    </body>
+</html>
